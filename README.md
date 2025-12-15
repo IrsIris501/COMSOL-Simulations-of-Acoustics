@@ -6,7 +6,7 @@ Z = \left\{
 \begin{matrix}
 0 & \text{, soft} \\
 \rho c & \text{, empty} \\
-\inf & \text{, hard} \\
+\infin & \text{, hard} \\
 \end{matrix}
 \right.
 $$
