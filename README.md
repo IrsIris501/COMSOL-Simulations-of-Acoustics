@@ -1,5 +1,14 @@
 这里的程序是25秋《音乐与数学》课程 3组的小组作业中使用到的comsol模拟程序。
 
-文件名的命名规则是"边界条件+几何形状.zip"。其中，hard表示边界是封闭的，soft表示边界是波节，empty表示无反射边界；cylinder, cone, clarinet 分别对应(a), (b), (c) 三种几何。
+文件名的命名规则是"边界条件+几何形状.zip"。其中，hard表示边界是封闭的，soft表示边界是波节，empty表示无反射边界；cylinder, cone, clarinet 分别对应(a), (b), (c) 三种几何。边界条件在COMSOL中用边界的阻抗表述。表达式是
+$$
+Z = \left\{
+\begin{matrix}
+0 & \text{, soft} \\
+\rho c & \text{, empty} \\
+\inf & \text{, hard} \\
+\end{matrix}
+\right.
+$$
 
 另外，感谢周宇燊同学进行模拟，感谢薛思睿、王旭阳、任宇桐三位同学的关于阻抗边界条件的有益讨论。
